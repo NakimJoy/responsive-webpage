@@ -12,14 +12,24 @@ background-repeat: no-repeat;
       font-style: italic;
     }
     .picture {
+      background-image: url(table\ mountain.jpg);
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: cover;
       display: flex;
       justify-content: flex-end;
       /* Align items to the end of the container (right side) */
     }
 
     .profile-pic {
-      margin-left: auto;
+    
+      margin: auto;
       /* Push the image to the right edge */
+    }
+
+    .center-image {
+        display: block; /* Ensures the image behaves like a block-level element */
+        margin: 0 auto; /* Centers the image horizontally */
     }
   </style>
   <meta charset="UTF-8">
@@ -38,7 +48,7 @@ background-repeat: no-repeat;
         Ms Xinwelo Maphali</h1>
       <div class="picture">
         <div class="profile-pic">
-          <img src="profile pic.jpeg" width="355" height="340" alt="Profile Picture">
+          <img src="profile pic.jpeg" width="360" height="345" alt="Profile Picture">
         </div>
       </div>
     </div>
@@ -48,7 +58,7 @@ background-repeat: no-repeat;
     <h1>Paris</h1>
     <!-- <img style="float: left;" src="eiffle tower.jpg" width="220"> -->
    <div class="row">
-    <img style="float: inline-start;" src="parisimg.jpg" width="250" height="340">
+    <img src="parisimg.jpg" width="300" height="340" class="center-image">
    </div> 
 
     <p>
@@ -73,8 +83,9 @@ background-repeat: no-repeat;
       stress and uncertainty that sometimes comes with travel. Spanish makes it feel like and everything is just
       so alright.</p>
 
-    <div class="table" style="font-size: small;">
-      <table border="1">
+    <div style="font-size: small;">
+      <table border="1" class="center-table">
+        >
         <tr>
           <th>
             <h3>Spanish phrase</h3>

@@ -38,3 +38,13 @@ ul {
 .link:hover {
     background-color: #6d8ed4;
 }
+
+.center-table {
+    margin: 0 auto;
+    /* This centers the table horizontally */
+}
+
+.center-image {
+    margin: 0 auto;
+    /* This centers the table horizontally */
+}
